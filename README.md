@@ -62,6 +62,17 @@ Overriding:
 
 Association:
 LocationTester يستخدم SimpleLocation و CityLocation (Aggregation/Composition)، لكنه ليس امتدادًا.
+ Overloading و Overriding
+
+ Overloading
+- تعريف عدة دوال بنفس الاسم داخل نفس الفئة.
+- تختلف المعاملات (عددها أو نوعها).
+- لا يعتمد على الوراثة.
+
+ Overriding
+- إعادة تعريف دالة موجودة في الفئة الأم داخل فئة فرعية.
+- نفس الاسم ونفس المعاملات ونفس النوع.
+- يعتمد على الوراثة لتغيير سلوك الدالة الأصلية.
 > _Write your explanation here..._
 
 ---
